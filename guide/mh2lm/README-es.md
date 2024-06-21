@@ -1,8 +1,8 @@
- <img align="right" src="devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+ <img align="right" src="../../devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 # Windows en el Lg G8x 
 
-[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/winong8x)
+[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/lgedevices)
 
 ## Idioma
 [English](README.md) | **Español**
@@ -45,19 +45,19 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 </details>
 
 ## Comencemos
-- [Estado del proyecto](guide/Español/Estado.md)
+- [Estado del proyecto](Español/Estado.md)
   
-- [Instrucciones para instalar](guide/Español/1-Particiones.md)
+- [Instrucciones para instalar](Español/1-Particiones.md)
 
-- [Instrucciones para desinstalar](guide/Español/Desinstalar.md)
+- [Instrucciones para desinstalar](Español/Desinstalar.md)
 
 
 ## Extras
-- [Preparando el dual boot](guide/Español/dualboot.md)
+- [Preparando el dual boot](Español/dualboot.md)
 
-- [Actualizar drivers](guide/Español/Actualizar.md)
+- [Actualizar drivers](Español/Actualizar.md)
 
-- [Extras](guide/Español/Extra.md)
+- [Extras](Español/Extra.md)
 
 ## Contribuidores
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)

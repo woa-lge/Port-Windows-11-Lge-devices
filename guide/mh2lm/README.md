@@ -1,9 +1,7 @@
-<img align="right" src="devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+<img align="right" src="../../devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
 
 # Running Windows on the LG G8x
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/lgedevices)
-
-
 
 ## Choose your language
 **English** | [Español](README-es.md)
@@ -16,21 +14,24 @@ This project is in an early stage, all the files here have been contributed by o
 **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
 
-## Select Your Device
+## Get started
+- [Project status](English/status.md)
 
-### *SDM845*
-- Soon
+- [Installation instructions](English/1-partition.md)
 
-### *SM8150*
-
-
-| Device                    | Codename              | Maintainer                                         |
-|---------------------------|-----------------------|----------------------------------------------------|
-| [Lg G8x](guide/mh2lm/README.md)                 | mh2lm                    | [Remtrik](https://github.com/remtrik) and [Icesito68](https://github.com/Icesito68)  |
+- [Troubleshooting](English/troubleshooting.md)
 
 
-### *SM8250*
-- There is no maintainer yet
+## Miscellaneous
+- [Dualboot setup](English/dualboot.md)
+
+- [Additional materials](English/materials.md)
+
+- [Update drivers](English/update.md)
+
+- [Reinstall instructions](English/reinstall.md)
+
+- [Uninstall instructions](English/uninstall.md)
 
 ## Contributors
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
