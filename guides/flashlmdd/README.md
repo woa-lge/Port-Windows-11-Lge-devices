@@ -22,7 +22,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 
 ## Miscellaneous
-- [Dualboot setup](English/dualboot.md)
+- [Dualboot setup](English/3-Dual-Boot.md)
 
 - [Additional materials](English/materials.md)
 
