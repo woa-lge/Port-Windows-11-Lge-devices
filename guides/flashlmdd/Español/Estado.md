@@ -9,10 +9,10 @@ Alfa. Este proyecto está empezando, tengan paciencia para futuras actualizacion
 
 #### Características
 
-- [ ] Audio
+- [x] Audio ```3.5mm no funciona```
 - [x] Porcentaje De La Batería  
-- [ ] Bluetooth
-- [ ] Brillo
+- [x] Bluetooth
+- [x] Brillo
 - [ ] Cámara
 - [x] Carga 
 - [x] Carga Inalámbrica
@@ -20,13 +20,13 @@ Alfa. Este proyecto está empezando, tengan paciencia para futuras actualizacion
 - [ ] Pantalla Secundaria De Lg
 - [ ] MHL
 - [ ] FM
-- [ ] GPU
+- [x] GPU
 - [ ] LTE 
 - [ ] SD
-- [ ] Pantalla Táctil
+- [x] Pantalla Táctil
 - [x] UFS
 - [x] USB 
-- [ ] WiFi
+- [x] WiFi
 
 #### Sensores
 - [ ] Acelerómetro

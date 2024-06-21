@@ -13,7 +13,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging ```DEAD slow```
+- [x] Charging ```Broken```
 - [x] Wireless Charging 
 - [x] Screen
 - [ ] Dual Screen For Lg
@@ -24,7 +24,7 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] SD 
 - [x] Touchscreen
 - [x] UFS
-- [x] USB ```If you try to charge the phone it will stop working```
+- [x] USB
 - [x] WiFi
 
 #### Sensors

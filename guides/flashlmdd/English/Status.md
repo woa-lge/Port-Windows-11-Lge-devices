@@ -9,10 +9,10 @@ Alpha. This project is just starting, please be patient for future updates.
 
 #### Features
 
-- [ ] Audio
+- [x] Audio ```3.5mm not working```
 - [x] Battery percentage
-- [ ] Bluetooth
-- [ ] Brightness
+- [x] Bluetooth
+- [x] Brightness
 - [ ] Camera
 - [x] Charging 
 - [x] Wireless Charging 
@@ -20,13 +20,13 @@ Alpha. This project is just starting, please be patient for future updates.
 - [ ] Dual Screen For Lg
 - [ ] MHL
 - [ ] FM
-- [ ] GPU
+- [x] GPU
 - [ ] LTE 
 - [ ] SD
-- [ ] Touchscreen
+- [x] Touchscreen
 - [x] UFS
 - [x] USB 
-- [ ] WiFi
+- [x] WiFi
 
 #### Sensors
 - [ ] Accelerometer
