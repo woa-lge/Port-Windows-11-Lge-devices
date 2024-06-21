@@ -15,7 +15,7 @@ This project is in an early stage, all the files here have been contributed by o
 ### *SDM845*
 | Device                    | Codename              | Maintainer                                         |
 |---------------------------|-----------------------|----------------------------------------------------|
-| [LG Velvet 4G](guides/caymanslm/README.md)                 | caymanslm                    | [leandrofriedrich](https://github.com/leandrofriedrich) |
+| [LG Velvet 4G](guides/caymanslm/README.md)    (Soon)             | caymanslm                    | [leandrofriedrich](https://github.com/leandrofriedrich) |
 
 
 ### *SM8150*
@@ -25,6 +25,11 @@ This project is in an early stage, all the files here have been contributed by o
 |---------------------------|-----------------------|----------------------------------------------------|
 | [Lg G8x](guides/mh2lm/README.md)                 | mh2lm                    | [Remtrik](https://github.com/remtrik) and [Icesito68](https://github.com/Icesito68)  |
 | [Lg V50](guides/flashlmdd/README.md)                 | flashlmdd                    | [AKAsaliza](https://github.com/AKAsaliza) |
+| [Lg V50S](guides/mh2lm5g/README.md)  (Soon)               | mh2lm5g                    | [AKAsaliza](https://github.com/AKAsaliza) |
+| [Lg G8s](guides/mh2lm5g/README.md)  (Soon)               | betalm                    | [sunflower2333](https://github.com/sunflower2333) ¿? |
+| [Lg G8](guides/alphaplus/README.md)  (Soon)               | alphaplus                    | None ¿? |
+
+
 
 
 ### *SM8250*
