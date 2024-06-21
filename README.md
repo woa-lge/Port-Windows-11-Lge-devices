@@ -1,5 +1,3 @@
-<img align="right" src="devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
-
 # Running Windows on the LG Devices
 [![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/lgedevices)
 
@@ -17,7 +15,7 @@ This project is in an early stage, all the files here have been contributed by o
 ### *SDM845*
 | Device                    | Codename              | Maintainer                                         |
 |---------------------------|-----------------------|----------------------------------------------------|
-| [LG Velvet 4G](guide/caymanslm/README.md)                 | caymanslm                    | [leandrofriedrich](https://github.com/leandrofriedrich) |
+| [LG Velvet 4G](guides/caymanslm/README.md)                 | caymanslm                    | [leandrofriedrich](https://github.com/leandrofriedrich) |
 
 
 ### *SM8150*
@@ -25,8 +23,8 @@ This project is in an early stage, all the files here have been contributed by o
 
 | Device                    | Codename              | Maintainer                                         |
 |---------------------------|-----------------------|----------------------------------------------------|
-| [Lg G8x](guide/mh2lm/README.md)                 | mh2lm                    | [Remtrik](https://github.com/remtrik) and [Icesito68](https://github.com/Icesito68)  |
-| [Lg V50](guide/flashlmdd/README.md)                 | flashlmdd                    | [AKAsaliza](https://github.com/AKAsaliza) |
+| [Lg G8x](guides/mh2lm/README.md)                 | mh2lm                    | [Remtrik](https://github.com/remtrik) and [Icesito68](https://github.com/Icesito68)  |
+| [Lg V50](guides/flashlmdd/README.md)                 | flashlmdd                    | [AKAsaliza](https://github.com/AKAsaliza) |
 
 
 ### *SM8250*
