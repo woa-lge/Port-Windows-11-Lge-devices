@@ -19,15 +19,13 @@ This project is in an early stage, all the files here have been contributed by o
 | LG V30             | joan                    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
 
 ### *SDM845*
-| Device                    | Codename        | Device                    | Codename              | Maintainer                                         |
-|---------------------------|-----------------------|----------------------------------------------------|
-| [LG Velvet 4G](guides/caymanslm/README.md) (Soon) | caymanslm        | [leandrofriedrich](https://github.com/leandrofriedrich) |
+| Device                              | Codename  | Maintainer                                                                                   |
+|-------------------------------------|-----------|----------------------------------------------------------------------------------------------|
+| [LG Velvet 4G](guides/caymanslm/README.md) (Soon) | caymanslm | [leandrofriedrich](https://github.com/leandrofriedrich)                                       |
+| LG G7                               | judyln    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
+| LG V35                              | judyp     | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
+| LG V40                              | judypn    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
 
-| LG G7                     | judyln                | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
-
-| LG V35                    | judyp                 | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
-
-| LG V40                    | judypn                | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
 
 
 ### *SM8150*
