@@ -12,6 +12,12 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Select Your Device
 
+### *MSM8998*
+
+| Device                    | Codename              | Maintainer                                         |
+|---------------------------|-----------------------|----------------------------------------------------|
+| LG V30             | joan                    | We need testers for this device |
+
 ### *SDM845*
 | Device                    | Codename              | Maintainer                                         |
 |---------------------------|-----------------------|----------------------------------------------------|
@@ -33,7 +39,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 
 ### *SM8250*
-- There is no maintainer yet
+| Device                    | Codename              | Maintainer                                         |
+|---------------------------|-----------------------|----------------------------------------------------|
+| LG V60             | timelm                    | We need testers for this device |
 
 ## Contributors
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
