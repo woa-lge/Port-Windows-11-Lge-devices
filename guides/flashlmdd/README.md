@@ -6,12 +6,14 @@
 ## Choose your language
 **English** | [Español](README-es.md)
 
-## ⚠️ Warning
-We are not responsible for bricked devices, deleted recovery partitions, dead xiaomi workers (LG ones are ok, don't worry) dead microSD cards, dead pmics, dead ram, dead ics, dead cpus, any xiaomi/poco mischief, (Lg never does anything) dead cats or dogs, nuclear wars or getting fired because you forgot to reboot android for the alarm.
+## A few notes
 
-This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
-
-**IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+> [!NOTE]
+> Welcome 🥰! Thanks for being interested in trying out this project. We thought the following notes may interest you first before proceeding further:
+>
+> ℹ️ We recommend you know what you're getting into here. You need to know a bit about command line interfaces, Windows technical aspects, as this is not for the faint of heart yet! We won't teach you how to port the OS yourself, we've done this for you, but this is not for beginners or common users either. Tech Savvy people only or technical people only please, or you'll regret it or commit mistakes that may take some time to solve with us!
+>
+> ℹ️ We do not recommend you buy a LG to try this on without fully understanding what you're getting into. We do not commit to future work or potential functionality, buy the device for what it can offer you today, not tomorrow, or you'll regret it. If you already own a LG and want to try it, feel free 🙂 But do not buy this with hopes of it replacing your laptop, buy a laptop instead 🙂 (Even if this is the long term goal for us)
 
 ## Get started
 - [Project status](English/Status.md)
