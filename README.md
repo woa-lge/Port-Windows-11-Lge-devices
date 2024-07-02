@@ -16,7 +16,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 | Device                    | Codename              | Maintainer                                         |
 |---------------------------|-----------------------|----------------------------------------------------|
-| [LG V30](guides/joan/README.md)             | joan                    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
+| [LG V30](guides/joan/README.md) (Soon)            | joan                    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
 
 ### *SDM845*
 | Device                              | Codename  | Maintainer                                                                                   |
@@ -45,7 +45,7 @@ This project is in an early stage, all the files here have been contributed by o
 ### *SM8250*
 | Device                    | Codename              | Maintainer                                         |
 |---------------------------|-----------------------|----------------------------------------------------|
-| [LG V60](guides/timelm/README.md)             | timelm                    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
+| [LG V60](guides/timelm/README.md) (Soon)            | timelm                    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
 
 ## Contributors
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
