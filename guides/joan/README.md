@@ -15,7 +15,8 @@
 >
 > ℹ️ We do not recommend you buy a LG to try this on without fully understanding what you're getting into. We do not commit to future work or potential functionality, buy the device for what it can offer you today, not tomorrow, or you'll regret it. If you already own a LG and want to try it, feel free 🙂 But do not buy this with hopes of it replacing your laptop, buy a laptop instead 🙂 (Even if this is the long term goal for us)
 
-# Soon
+# Soon, The guides are not ready yet, there will be updates in the future (hopefully soon)
+
 
 ## Get started
 - [Project status](English/status.md)
