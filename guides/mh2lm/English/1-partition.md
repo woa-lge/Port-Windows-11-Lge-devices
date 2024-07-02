@@ -71,7 +71,7 @@ Go to mount in TWRP/Orange Fox and unmount all partitions
 ### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
+adb push parted /sbin/ && adb shell "chmod 755 /sbin/parted" && adb shell /sbin/parted /dev/block/sda
 ```
 
 #### Printing the current partition table
