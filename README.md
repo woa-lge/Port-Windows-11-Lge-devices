@@ -16,7 +16,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 | Device                    | Codename              | Maintainer                                         |
 |---------------------------|-----------------------|----------------------------------------------------|
-| LG V30             | joan                    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
+| [LG V30](guides/joan/README.md)             | joan                    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices) |
 
 ### *SDM845*
 | Device                              | Codename  | Maintainer                                                                                   |
