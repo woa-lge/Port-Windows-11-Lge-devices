@@ -1,9 +1,17 @@
-<img align="right" src="/devices/flashlmdd.png" width="350" alt="Windows 11 Running On To LG G8x">
+<img align="right" src="/devices/flashlmdd.png" width="350" alt="Windows 11 Running On To LG v50">
 
 
 # Windows on the Lg V50
 
 # Install Windows
+
+### Prerequisites
+- [Windows on ARM image](https://worproject.com/esd)
+  
+- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
+
+- [Mass storage image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.img)
+
 
 # Previous
 
@@ -11,14 +19,14 @@
 
 - With Qfil, flash "LGG8XMassStorageBoot.img" in boot.
   
-- Then exit EDL, so your PC will recognize the G8x as a disk
+- Then exit EDL, so your PC will recognize the V50 as a disk
 
 ## Assign letters to disks
   
 
 #### Start the diskpart
 
-> Once the G8x is detected as a disk
+> Once the V50 is detected as a disk
 
 ```cmd
 diskpart
@@ -59,9 +67,6 @@ assign letter=y
 exit
 ```
 
-  
-  
-
 ## Install
 
 > replace `<path/to/Install.wim>` with the path of the install.wim file
@@ -78,10 +83,10 @@ dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
 
 > open a cmd as Administrator
 
-> replace `<mh2lmdriversfolder>` with the location of the drivers folder
+> replace `<flashlmddriversfolder>` with the location of the drivers folder
 
 ```cmd
-driverupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
+driverupdater.exe -d <flashlmdddriversfolder>\definitions\Desktop\ARM64\Internal\flashlmdd.txt -r <flashlmdddriversfolder> -p X:
 ```
 
   

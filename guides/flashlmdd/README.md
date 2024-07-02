@@ -14,7 +14,7 @@ This project is in an early stage, all the files here have been contributed by o
 **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
 
 ## Get started
-- [Project status](English/status.md)
+- [Project status](English/Status.md)
 
 - [Installation instructions](English/1-partition.md)
 

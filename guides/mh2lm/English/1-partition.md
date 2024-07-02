@@ -123,6 +123,24 @@ set $ esp on
 quit
 ```
 
+### Reboot to TWRP
+
+### Start ADB shell again
+```cmd
+adb shell
+```
+
+### Format partitions
+- Format the ESP partiton as FAT32
+```sh
+mkfs.fat -F32 -s1 /dev/block/by-name/esp
+```
+
+- Format the Windows partition as NTFS
+```sh
+mkfs.ntfs -f /dev/block/by-name/win
+```
+
 #### Format all data
 Go to the Wipe menu in TWRP, press Format Data, then type `yes`.
 
