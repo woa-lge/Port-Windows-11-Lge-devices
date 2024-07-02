@@ -22,9 +22,9 @@ This project is in an early stage, all the files here have been contributed by o
 | Device                              | Codename  | Maintainer                                                                                   |
 |-------------------------------------|-----------|----------------------------------------------------------------------------------------------|
 | [LG Velvet 4G](guides/caymanslm/README.md) (Soon) | caymanslm | [leandrofriedrich](https://github.com/leandrofriedrich)                                       |
-| LG G7                               | judyln    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
-| LG V35                              | judyp     | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
-| LG V40                              | judypn    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
+| [LG G7](guides/judyln/README.md) (Soon)                               | judyln    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
+| [LG V35](guides/judyp/README.md) (Soon)                              | judyp     | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
+| [LG V40](guides/judypn/README.md) (Soon)                              | judypn    | We need testers for this device [Join Telegram to contribute](https://t.me/lgedevices)        |
 
 
 
