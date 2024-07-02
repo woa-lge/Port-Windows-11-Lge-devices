@@ -116,16 +116,6 @@ bcdboot X:\Windows /s Y: /f UEFI
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 ```
 
-#### Disabling recovery
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
-```
-
-#### Disabling integrity checks
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
-```
-
 ### Reboot to EDL
 > If you didn't flash the engineering ABL on the previous page, you can skip this step and simply reboot your device
 - Open **Device Manager** on your PC
