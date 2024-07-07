@@ -4,7 +4,7 @@
 
 ## Project status
 
-Beta. Most of the hardware works, but some components do not work yet.
+Stable. Most of the components work, but there is still a lot of work for the last ones.
 
 #### Features
 
