@@ -5,7 +5,7 @@
 
 ## Estado Del Proyecto
 
-Beta. La mayoría del hardware funciona, pero aún quedan cosas
+Estable. La mayoría de los componentes funcionan, pero todavía queda mucho trabajo para los últimos.
 
 #### Características
 
@@ -25,15 +25,15 @@ Beta. La mayoría del hardware funciona, pero aún quedan cosas
 - [x] SD
 - [x] Pantalla Táctil
 - [x] UFS
-- [x] USB ```Si intentas cargar el móvil dejará de funcionar```
+- [x] USB
 - [x] WiFi
 
 #### Sensores
-- [ ] Acelerómetro
+- [x] Acelerómetro
 - [ ] Sensor De Huellas
 - [x] GPS
-- [ ] Giroscopio
-- [ ] Sensor De Luz
-- [ ] Magnetómetro
+- [x] Giroscopio
+- [x] Sensor De Luz
+- [x] Magnetómetro
 - [ ] Proximidad
 
