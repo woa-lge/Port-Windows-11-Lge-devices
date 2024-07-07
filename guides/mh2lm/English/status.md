@@ -28,12 +28,12 @@ Beta. Most of the hardware works, but some components do not work yet.
 - [x] WiFi
 
 #### Sensors
-- [ ] Accelerometer
+- [x] Accelerometer
 - [ ] Fingerprint
 - [x] GPS
-- [ ] Gyroscope
-- [ ] Light sensor
-- [ ] Magnetometer
+- [x] Gyroscope
+- [x] Light sensor
+- [x] Magnetometer
 - [ ] Proximity
 
 
