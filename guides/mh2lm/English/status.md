@@ -18,6 +18,7 @@ Stable. Most of the components work, but there is still a lot of work for the la
 - [x] Screen
 - [ ] Dual Screen For Lg
 - [ ] MHL
+- [ ] Flashlight 
 - [ ] FM
 - [x] GPU
 - [ ] LTE 
