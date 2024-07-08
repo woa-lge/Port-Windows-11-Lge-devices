@@ -21,6 +21,7 @@ Estable. La mayoría de los componentes funcionan, pero todavía queda mucho tra
 - [ ] MHL
 - [ ] FM
 - [x] GPU
+- [ ] Linterna
 - [ ] LTE
 - [x] SD
 - [x] Pantalla Táctil
