@@ -19,6 +19,8 @@
 ## Get started
 - [Project status](English/status.md)
 
+- [Detailed Project Status](English/detailed-status.md)
+
 - [Installation instructions](English/1-partition.md)
 
 - [Troubleshooting](English/troubleshooting.md)
