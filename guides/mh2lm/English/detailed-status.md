@@ -17,8 +17,8 @@
 | 📌 GPS                 |                                     | ✅            |
 | 🪵 USB                 | If you try to charge the phone it will stop working | ✅            |
 | 🔊 Audio               |                                     | ✅            |
-| 🧭 Sensor              |                                     | ⚠️            |
-| 🛡️ TPM                 | some are already working                                    | ❌            |
+| 🧭 Sensor              | some are already working                                    | ⚠️            |
+| 🛡️ TPM                 |                                     | ❌            |
 | 👆 Touch               |                                     | ✅            |
 | 🔌 Charge              | Slow charging only.                 | ✅            |
 | 📳 Vibration motor     |                                     | ❌            |
