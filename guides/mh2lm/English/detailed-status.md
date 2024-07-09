@@ -18,7 +18,7 @@
 | 🪵 USB                 | If you try to charge the phone it will stop working | ✅            |
 | 🔊 Audio               |                                     | ✅            |
 | 🧭 Sensor              | some are already working                                    | ⚠️            |
-| 🛡️ TPM                 |                                     | ❌            |
+| 🛡️ TPM                 | Work In Progress                                    | ❌            |
 | 👆 Touch               |                                     | ✅            |
 | 🔌 Charge              | Slow charging only.                 | ✅            |
 | 📳 Vibration motor     |                                     | ❌            |
