@@ -16,6 +16,7 @@
 | 🔋 Battery             |                                     | ✅            |
 | 📌 GPS                 |                                     | ✅            |
 | 🪵 USB                 | If you try to charge the phone it will stop working | ✅            |
+| 📺 HDMI / DP out       |                                                           | ❌           |
 | 🔊 Audio               |                                     | ✅            |
 | 🧭 Sensor              | some are already working                                    | ⚠️            |
 | 🛡️ TPM                 | Work In Progress                                    | ❌            |
