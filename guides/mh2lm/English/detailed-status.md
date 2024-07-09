@@ -43,10 +43,10 @@
 ## 🧭 Sensors
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🧭 Accelerometer       |                                     | ❌            |
-| 🧭 Gyroscope           |                                     | ❌            |
-| 🧭 Light sensor        |                                     | ❌            |
-| 🧭 Magnetometer        |                                     | ❌            |
+| 🧭 Accelerometer       |                                     | ✅            |
+| 🧭 Gyroscope           |                                     | ✅            |
+| 🧭 Light sensor        | It is detected but Windows does not change the brightness automatically                                    | ⚠️            |
+| 🧭 Magnetometer        |                                     | ✅            |
 | 🧭 Proximity           |                                     | ❌            |
 
 ## 🪵 USB
