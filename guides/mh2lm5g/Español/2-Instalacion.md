@@ -88,9 +88,9 @@ exit
 ### Instalar Windows
 > Reemplace `<ruta\al\install.esd>` con la ruta real de install.esd (también puede llamarse install.wim)
 
-dism /apply-image /ImageFile:<ruta\al\install.esd> /index:6 /ApplyDir:X:\
+dism /apply-image /ImageFile:<ruta\al\install.esd> /index:1 /ApplyDir:X:\
 
-> Si recibe `Error 87`, verifique el índice de su imagen con `dism /get-imageinfo /ImageFile:<ruta\al\install.esd>`, luego reemplace `index:6` con el número de índice real de Windows 11 Pro en su imagen
+> Si recibe `Error 87`, verifique el índice de su imagen con `dism /get-imageinfo /ImageFile:<ruta\al\install.esd>`, luego reemplace `index:1` con el número de índice real de Windows 11 Pro en su imagen
 
 ### Instalar controladores
 > Desempaque el archivo de controladores, luego abra el archivo `OfflineUpdater.cmd`
