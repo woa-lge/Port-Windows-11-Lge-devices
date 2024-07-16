@@ -16,7 +16,7 @@
 | 🔋 Battery             |                                     | ✅            |
 | 📌 GPS                 |                                     | ✅            |
 | 🪵 USB                 | If you try to charge the phone it will stop working | ✅            |
-| 📺 HDMI / DP out       |                                                           | ❌           |
+| 📺 HDMI / DP out       | Work In Progress                                                          | ❌           |
 | 🔊 Audio               |                                     | ✅            |
 | 🧭 Sensor              | some are already working                                    | ⚠️            |
 | 🛡️ TPM                 | Work In Progress                                    | ❌            |
@@ -46,7 +46,7 @@
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | 🧭 Accelerometer       |                                     | ✅            |
 | 🧭 Gyroscope           |                                     | ✅            |
-| 🧭 Light sensor        | It is detected but Windows does not change the brightness automatically                                    | ⚠️            |
+| 🧭 Light sensor        |                                     | ✅            |
 | 🧭 Magnetometer        |                                     | ✅            |
 | 🧭 Proximity           |                                     | ❌            |
 
