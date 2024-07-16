@@ -7,12 +7,15 @@
 ## Idioma
 [English](README.md) | **Español**
 
-## ⚠️ Advertencia
-No somos responsables de dispositivos bloqueados, particiones de recuperación eliminadas, trabajadores de xiaomi muertos,(Los de Lg están bien no se preocupen) tarjetas microSD muertas, pmics muertos, ram muertas, circuitos integrados muertos, cpus muertos, cualquier travesura de xiaomi/poco,(Lg no hace nada nunca) gatos o perros muertos, guerras nucleares o que te despidan porque olvidaste volver a iniciar Android para la alarma.
+## Algunas notas
 
-Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han sido aportados por otros usuarios, aquí encontrará una guía con los archivos que logramos obtener. Este es un proceso delicado, hazlo bajo tu propio riesgo y sigue todos los pasos cuidadosamente.
+> [!NOTE]
+> ¡Bienvenid@ 🥰! Gracias por estar interesad@ en probar este proyecto. Pensamos que las siguientes notas pueden interesarte antes de continuar:
+>
+> ℹ️ Recomendamos que sepas en lo que te estás metiendo aquí. Necesitas saber un poco sobre interfaces de línea de comandos y aspectos técnicos de Windows, ¡esto no es para los débiles de corazón aún! No te enseñaremos cómo portar el sistema operativo por ti mismo, ya lo hemos hecho por ti, pero esto tampoco es para principiantes o usuarios comunes. Solo personas con conocimientos técnicos o personas técnicas por favor, ¡o te arrepentirás o cometerás errores que pueden llevar tiempo resolver con nosotros!
+>
+> ℹ️ No recomendamos que compres un LG para intentar esto sin comprender completamente en lo que te estás metiendo. No nos comprometemos a trabajos futuros o funcionalidad potencial, compra el dispositivo por lo que puede ofrecerte hoy, no mañana, o te arrepentirás. Si ya posees un LG y quieres intentarlo, siéntete libre 🙂 Pero no compres esto con la esperanza de que reemplace tu laptop, compra una laptop en su lugar 🙂 (Aunque este es nuestro objetivo a largo plazo).
 
-**SI NO SE SIENTE CÓMODO MODIFICANDO SU TELÉFONO O SU TABLA DE PARTICIONES O ESTÁ PARANOICO DE BRICKEAR SU DISPOSITIVO SALGA AHORA MISMO!!! USTED HA SIDO ADVERTIDO, USTED ESTÁ POR SU CUENTA SI BCRICKEA SU DISPOSITIVO!!! ¡DE NUEVO! ¡¡¡USTED HA SIDO ADVERTIDO!!!**
 
 <details>
 <summary><a><strong>Requisitos Previos</strong></a></summary>
@@ -46,6 +49,8 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 
 ## Comencemos
 - [Estado del proyecto](Español/Estado.md)
+
+- [Detailed Project Status](Español/estado-detallado.md)
   
 - [Instrucciones para instalar](Español/1-Particiones.md)
 
@@ -67,30 +72,3 @@ Este proyecto se encuentra en una etapa inicial, todos los archivos aquí han si
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)
 [<img alt="ArturoGC06" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76574534?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArtturoGC06)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-- 
-
-
-
-
-
-
-
