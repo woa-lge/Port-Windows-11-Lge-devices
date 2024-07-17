@@ -6,47 +6,46 @@
 | Característica         | Notas                                                                                   | Estado         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | ⌨️ Botones laterales   |                                                                                         | ✅            |
-| ♋ Llamadas celulares   |                                                                                         | ❌            |
-| ♋ Datos celulares      |                                                                                         | ❌            |
-| ♋ Mensajes celulares   |                                                                                         | ❌            |
-| ♋ Wifi                 |                                                                                         | ✅            |
+| ♋ Llamadas celulares  |                                                                                         | ❌            |
+| ♋ Datos celulares     |                                                                                         | ❌            |
+| ♋ Mensajes celulares  |                                                                                         | ❌            |
+| ♋ Wifi                |                                                                                         | ✅            |
 | 📦 UFS                 |                                                                                         | ✅            |
 | 🔵 Bluetooth           |                                                                                         | ✅            |
 | 🎆 GPU                 |                                                                                         | ✅            |
 | 🔋 Batería             |                                                                                         | ✅            |
 | 📌 GPS                 |                                                                                         | ✅            |
 | 🪵 USB                 | Si intentas cargar el teléfono dejará de funcionar                                      | ✅            |
-| 📺 HDMI / DP out       | En progreso                                                                             | ❌           |
+| 📺 HDMI / DP out       | En progreso                                                                             | ❌            |
 | 🔊 Audio               |                                                                                         | ✅            |
-| 🧭 Sensor              | algunos ya están funcionando                                                            | ⚠️            |
+| 🧭 Sensor              | Algunos ya están funcionando                                                            | ⚠️            |
 | 🛡️ TPM                 | En progreso                                                                             | ❌            |
-| 👆 Táctil               |                                                                                         | ✅            |
+| 👆 Táctil              |                                                                                         | ✅            |
 | 🔌 Carga               | Carga lenta únicamente                                                                  | ✅            |
 | 📳 Motor de vibración  |                                                                                         | ❌            |
 | 🔦 LED                 |                                                                                         | ❌            |
 | 📸 Flash de cámara     |                                                                                         | ❌            |
 | 🏷️ NFC                 |                                                                                         | ❌            |
 | 📸 Cámara              |                                                                                         | ❌            |
-| 🧑‍💼 Hyper-V             | Requiere binario de configuración del dispositivo firmado por LG Electronics             | ❌           |
 | 🧬 Escáner de huellas  |                                                                                         | ❌            |
 
 # Estado detallado
 
 ## 🔊 Audio
-| Característica         | Notas                                                                                   | Estado         |
-|------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🔉 Altavoz de audio    |                                                                                         | ✅            |
-| 🔉 Altavoz del auricular|                                                                                         | ✅            |
-| 🔉 AUX                 |                                                                                         | ✅            |
-| 🎙️ Micrófono superior interno |                                                                               | ✅            |
-| 🎙️ Micrófono inferior interno |                                                                               | ✅            |
+| Característica                | Notas                                                                                   | Estado         |
+|-------------------------------|-----------------------------------------------------------------------------------------|----------------|
+| 🔉 Altavoz de audio           |                                                                                         | ✅            |
+| 🔉 Altavoz del auricular      |                                                                                         | ✅            |
+| 🔉 AUX                        |                                                                                         | ✅            |
+| 🎙️ Micrófono superior interno |                                                                                         | ✅            |
+| 🎙️ Micrófono inferior interno |                                                                                         | ✅            |
 
 ## 🧭 Sensores
 | Característica         | Notas                                                                                   | Estado         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
 | 🧭 Acelerómetro        |                                                                                         | ✅            |
 | 🧭 Giroscopio          |                                                                                         | ✅            |
-| 🧭 Sensor de luz       |                                                                                         | ✅            |
+| 🧭 Sensor de luz       |                                                                                         | ⚠️            |
 | 🧭 Magnetómetro        |                                                                                         | ✅            |
 | 🧭 Proximidad          |                                                                                         | ❌            |
 
@@ -66,12 +65,12 @@ REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /
 
 | Feature                         | Notes                                                                                   | Status         |
 |---------------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🪵 USB-Fn   (Carga & MTP)   | **[Predeterminado]** MTP no funciona todo el tiempo | ✅            |
-| 🪵 USB-Host (OTG)              | Algunas funciones están en progreso (dongles sin alimentación USB)          | ⚠️            |
+| 🪵 USB-Fn   (Carga & MTP)       | **[Predeterminado]** MTP no funciona todo el tiempo                                     | ✅            |
+| 🪵 USB-Host (OTG)               | Algunas funciones están en progreso (dongles sin alimentación USB)                      | ⚠️            |
 
 
 ## 🎆 GPU 
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 📲 Control de brillo	  |                                     | ✅            |
-| 🎆 Emulación X64	      |                                     | ✅            |
+| 📲 Control de brillo	 |                                                                                         | ✅            |
+| 🎆 Emulación X64	     |                                                                                         | ✅            |

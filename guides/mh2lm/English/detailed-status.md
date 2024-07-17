@@ -5,50 +5,49 @@
 
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
-| ⌨️ Side buttons        |                                     | ✅            |
-| ♋ Cellular Calls      |                                     | ❌            |
-| ♋ Cellular Data       |                                     | ❌            |
-| ♋ Cellular Texts      |                                     | ❌            |
-| ♋ Wifi                |                                     | ✅            |
-| 📦 UFS                 |                                     | ✅            |
-| 🔵 Bluetooth           |                                     | ✅            |
-| 🎆 GPU                 |                                     | ✅            |
-| 🔋 Battery             |                                     | ✅            |
-| 📌 GPS                 |                                     | ✅            |
-| 🪵 USB                 | If you try to charge the phone it will stop working | ✅            |
-| 📺 HDMI / DP out       | Work In Progress                                                          | ❌           |
-| 🔊 Audio               |                                     | ✅            |
-| 🧭 Sensor              | some are already working                                    | ⚠️            |
-| 🛡️ TPM                 | Work In Progress                                    | ❌            |
-| 👆 Touch               |                                     | ✅            |
-| 🔌 Charge              | Slow charging only.                 | ✅            |
-| 📳 Vibration motor     |                                     | ❌            |
-| 🔦 LED                 |                                     | ❌            |
-| 📸 Camera Flash        |                                     | ❌            |
-| 🏷️ NFC                 |                                     | ❌            |
-| 📸 Camera              |                                     | ❌            |
-| 🧑‍💼 Hyper-V             | Requires LG Electronics Signed device configuration binary  | ❌           |
-| 🧬 Fingerprint scanner |                                     | ❌            |
+| ⌨️ Side buttons        |                                                                                         | ✅            |
+| ♋ Cellular Calls      |                                                                                         | ❌            |
+| ♋ Cellular Data       |                                                                                         | ❌            |
+| ♋ Cellular Texts      |                                                                                         | ❌            |
+| ♋ Wifi                |                                                                                         | ✅            |
+| 📦 UFS                 |                                                                                         | ✅            |
+| 🔵 Bluetooth           |                                                                                         | ✅            |
+| 🎆 GPU                 |                                                                                         | ✅            |
+| 🔋 Battery             |                                                                                         | ✅            |
+| 📌 GPS                 |                                                                                         | ✅            |
+| 🪵 USB                 | If you try to charge the phone it will stop working                                     | ✅            |
+| 📺 HDMI / DP out       | Work In Progress                                                                        | ❌            |
+| 🔊 Audio               |                                                                                         | ✅            |
+| 🧭 Sensor              |                                                                                         | ⚠️            |
+| 🛡️ TPM                 | Work In Progress                                                                        | ❌            |
+| 👆 Touch               |                                                                                         | ✅            |
+| 🔌 Charge              | Slow charging only.                                                                     | ✅            |
+| 📳 Vibration motor     |                                                                                         | ❌            |
+| 🔦 LED                 |                                                                                         | ❌            |
+| 📸 Camera Flash        |                                                                                         | ❌            |
+| 🏷️ NFC                 |                                                                                         | ❌            |
+| 📸 Camera              |                                                                                         | ❌            |
+| 🧬 Fingerprint scanner |                                                                                         | ❌            |
 
 # Detailed status
 
 ## 🔊 Audio
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🔉 Audio Speaker       |                                     | ✅            |
-| 🔉 Handset  Speaker    |                                     | ✅            |
-| 🔉 AUX                 |                                     | ✅            |
-| 🎙️ Internal Top Mic    |                                     | ✅            |
-| 🎙️ Internal Bottom Mic |                                     | ✅            |
+| 🔉 Audio Speaker       |                                                                                         | ✅            |
+| 🔉 Handset  Speaker    |                                                                                         | ✅            |
+| 🔉 AUX                 |                                                                                         | ✅            |
+| 🎙️ Internal Top Mic    |                                                                                         | ✅            |
+| 🎙️ Internal Bottom Mic |                                                                                         | ✅            |
 
 ## 🧭 Sensors
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🧭 Accelerometer       |                                     | ✅            |
-| 🧭 Gyroscope           |                                     | ✅            |
-| 🧭 Light sensor        |                                     | ✅            |
-| 🧭 Magnetometer        |                                     | ✅            |
-| 🧭 Proximity           |                                     | ❌            |
+| 🧭 Accelerometer       |                                                                                         | ✅            |
+| 🧭 Gyroscope           |                                                                                         | ✅            |
+| 🧭 Light sensor        | It is detected but Windows does not change the brightness automatically                 | ⚠️            |
+| 🧭 Magnetometer        |                                                                                         | ✅            |
+| 🧭 Proximity           |                                                                                         | ❌            |
 
 ## 🪵 USB
 > [!NOTE]
@@ -64,14 +63,14 @@ REM Restore default auto detection functionality (default behavior):
 REG ADD "HKLM\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0597\0\Device Parameters" /v RoleSwitchMode /t REG_DWORD /d 3
 ```
 
-| Feature                         | Notes                                                                                   | Status         |
-|---------------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 🪵 USB-Fn   (Charging & MTP)   | **[Default]** MTP doesn't work all of the time | ✅            |
-| 🪵 USB-Host (OTG)              | Some of the features are work in progress (USB Powerless Dongles)          | ⚠️            |
+| Feature                         | Notes                                                                          | Status         |
+|---------------------------------|--------------------------------------------------------------------------------|----------------|
+| 🪵 USB-Fn   (Charging & MTP)    | **[Default]** MTP doesn't work all of the time                                  | ✅            |
+| 🪵 USB-Host (OTG)               | Some of the features are work in progress (USB Powerless Dongles)               | ⚠️            |
 
 
 ## 🎆 GPU 
 | Feature                | Notes                                                                                   | Status         |
 |------------------------|-----------------------------------------------------------------------------------------|----------------|
-| 📲 Brightness control  |                                     | ✅            |
-| 🎆 X64 simulation      |                                     | ✅            |
+| 📲 Brightness control  |                                                                                         | ✅            |
+| 🎆 X64 simulation      |                                                                                         | ✅            |
