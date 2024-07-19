@@ -1,13 +1,13 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows en el Lg G8x">
+<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows en el LG V50S">
 
-# Windows en el Lg G8x
+# Windows en el Lg V50S
 
 ## Instalando Windows
 
 ### Requisitos previos
 - [Windows para ARM](https://worproject.com/esd)
   
-- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
+- [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
 - [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
@@ -120,4 +120,4 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 #### Reiniciar de nuevo a Android
 Simply reboot your device
 
-## [Último paso: configuremos el arranque dual](dualboot.md)
+## [Último paso: configuremos el arranque dual](3-dualboot.md)

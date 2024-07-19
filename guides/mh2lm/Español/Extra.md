@@ -18,18 +18,6 @@ Ejecuta [Control de Modo de Host USB](https://github.com/erdilS/Port-Windows-11-
 
 #### ¡Finalizado!
 
-### Ocultar la unidad D (partición de módem)
-> [!NOTA]
-> Esto se recomienda porque esta unidad no debe modificarse, aunque algunas aplicaciones pueden intentar escribir en ella
-
-- Abre una ventana de símbolo del sistema y ejecuta ```diskpart```
-- Ejecuta ```list volume``` para ver todos los volúmenes disponibles
-- Selecciona el disco que tiene la letra D con ```select volume $```, reemplazando "$" con el número de volumen
-- Elimina la letra con ```remove letter d```
-- Sal de diskpart con ```exit```
-
-#### ¡Finalizado!
-
 ### Instalar Microsoft Office / Microsoft 365
 - Descarga este [archivo ISO](https://mega.nz/file/hjAiSL4T#G7kOKpsUFpyL2UW9RQmY2e96urcQW5xZKdc7ciaNOy8) en la tableta
 - Haz clic derecho en el archivo iso y selecciona Montar para abrirlo en el explorador

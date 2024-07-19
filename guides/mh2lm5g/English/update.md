@@ -1,11 +1,11 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On To LG G8x">
+<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On To LG V50S">
 
-# Running Windows on the LG G8x
+# Running Windows on the LG V50S
 
 ## Updating drivers
 
 ### Prerequisites
-- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
+- [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
 ### Boot into Windows
 > Flash the UEFI image in fastboot or use the WOA Helper app

@@ -5,7 +5,7 @@
 ## Updating drivers
 
 ### Prerequisites
-- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
+- [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
 ### Boot into Windows
 > Flash the UEFI image in fastboot or use the WOA Helper app

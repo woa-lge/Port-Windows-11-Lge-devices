@@ -1,73 +1,57 @@
  <img align="right" src="/devices/flashlmdd.png" width="350" alt="Windows 11 Running On A V50">
 
 
-# Windows en el Lg V50
+# Running Windows on the LG V50
 
-#### Arranca en TWRP del dispositivo
+## Uninstalling Windows
 
-#### Desmonta todas las particiones
-Ve a mount en TWRP y desmonta todas las particiones
+### Prerequisites
+- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-## Pasar las herramientas necesarias:
+- [Parted script](https://github.com/n00b69/woa-flashlmdd/releases/download/Files/parted)
+  
+- Any custom recovery
+
+#### Boot TWRP on the device
+> Boot into any custom recovery, such as TWRP
+
+#### Unmount all partitions
+> Go to mount in TWRP and unmount all partitions
+
+#### Run parted
+> Put parted in your platform tools folder, then run
 ```cmd
-adb push parted /sbin
+adb push parted /cache && chmod 755 /cache/parted && /parted /dev/block/sda
 ```
 
-## Iniciar ADB shell
-```cmd
-adb shell
-```
-
-# Restaurar particiones
-#### Darle los permisos necesarios a la herramienta
-```sh
-chmod +x /sbin/*
-```
-
-
-### Iniciar parted
-```sh
-parted /dev/block/sda
-```
-
-### Borrar la partición `userdata` 
->Para asegurarte de que la partición 32 es userdata puedes usar
->  `print all`
+#### Delete Windows Partition
+> Use `print all` to make sure that partition 32 is Windows
 ```sh
 rm 32
 ```
 
-### Borrar la partición `win` 
->Para asegurarte de que la partición 31 es win puedes usar
->  `print all`
+#### Delete ESP Partition
+> Use `print all` to make sure that partition 31 is ESP
 ```sh
 rm 31
 ```
 
-### Borrar la partición `esp` 
->Para asegurarte de que la partición 30 es esp puedes usar
->  `print all`
+#### Resize userdata Partition
+> Use `print all` to make sure that partition 30 is userdata
 ```sh
-rm 30
+resizepart 30
+126GB
 ```
 
-### Creamos la partición de datos de Android
-```sh
-mkpart userdata ext4 18.4GB 126GB
-```
-
-### Salir de parted
+#### Exit Parted
 ```sh
 quit
 ```
 
-### Reiniciar a TWRP
+### Format data
+Go to the Wipe menu in TWRP and press Format Data, then type `yes`
 
-- Formatea data
-Ve a Wipe en TWRP y presiona Format Data, 
-después escribe `yes`.
+#### Check if Android boots
+Reboot your device and check if Android boots.
 
-### Comprueba si android inicia
-Solo reinicia el teléfono y comprueba si Android inicia
-
-## ¡Terminado!
+## Finished!

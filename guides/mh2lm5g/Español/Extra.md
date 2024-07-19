@@ -1,6 +1,6 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows en el Lg G8x">
+<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows en el LG V50S">
 
-# Windows en el Lg G8x
+# Windows en el LG V50S
 
 ### Lista de aplicaciones/juegos compatibles
 Esta lista no pretende ser exhaustiva, simplemente enumera las aplicaciones/juegos que han sido probados por la comunidad
@@ -15,18 +15,6 @@ También puedes encontrar una lista de software ARM dedicado [en este enlace](ht
 > Desactiva el modo de host USB si usas un concentrador USB con alimentación, ya que esto puede dañar irreversiblemente tu dispositivo. Si no usas un concentrador USB con alimentación, habilita el modo de host USB o no podrás usar ningún dispositivo USB.
 
 Ejecuta [Control de Modo de Host USB](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/USBHost/USB.Host.Mode.Control.V4.0.vbs) para habilitar/deshabilitar el modo de host USB, confirma que deseas deshabilitar/habilitar el modo de host USB y luego confirma el reinicio
-
-#### ¡Finalizado!
-
-### Ocultar la unidad D (partición de módem)
-> [!NOTA]
-> Esto se recomienda porque esta unidad no debe modificarse, aunque algunas aplicaciones pueden intentar escribir en ella
-
-- Abre una ventana de símbolo del sistema y ejecuta ```diskpart```
-- Ejecuta ```list volume``` para ver todos los volúmenes disponibles
-- Selecciona el disco que tiene la letra D con ```select volume $```, reemplazando "$" con el número de volumen
-- Elimina la letra con ```remove letter d```
-- Sal de diskpart con ```exit```
 
 #### ¡Finalizado!
 

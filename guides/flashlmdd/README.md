@@ -16,7 +16,7 @@
 > ℹ️ We do not recommend you buy a LG to try this on without fully understanding what you're getting into. We do not commit to future work or potential functionality, buy the device for what it can offer you today, not tomorrow, or you'll regret it. If you already own a LG and want to try it, feel free 🙂 But do not buy this with hopes of it replacing your laptop, buy a laptop instead 🙂 (Even if this is the long term goal for us)
 
 ## Get started
-- [Project status](English/Status.md)
+- [Project status](English/status.md)
 
 - [Installation instructions](English/1-partition.md)
 
@@ -24,7 +24,7 @@
 
 
 ## Miscellaneous
-- [Dualboot setup](English/3-Dual-Boot.md)
+- [Dualboot setup](English/3-dualboot.md)
 
 - [Additional materials](English/materials.md)
 

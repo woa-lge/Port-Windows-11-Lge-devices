@@ -1,8 +1,9 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On To LG G8x">
+<img align="right" src="/devices/flashlmdd.png" width="350" alt="Windows 11 Running On To LG v50">
 
-# Running Windows on the LG G8x
 
-## Installing Windows
+# Windows on the LG V50
+
+# Install Windows
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
@@ -10,6 +11,7 @@
 - [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
 - [Mass storage image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.img)
+
 
 ### Reboot to fastboot mode
 - With your phone turned off, hold the **volume down** button, then plug the cable back in.
@@ -29,8 +31,7 @@ fastboot boot <path\to\msc.img>
 
 ### Diskpart
 > [!WARNING]
-> DO NOT ERASE ANY PARTITION WHILE IN DISKPART!!!! THIS WILL ERASE YOUR ENTIRE UFS!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for flashing it with EDL, which is complicated)
-
+> DO NOT ERASE, CREATE OR OTHERWISE MODIFY ANY PARTITION WHILE IN DISKPART!!!! THIS CAN ERASE ALL OF YOUR UFS OR PREVENT YOU FROM BOOTING TO FASTBOOT!!!! THIS MEANS THAT YOUR DEVICE WILL BE PERMANENTLY BRICKED WITH NO SOLUTION! (except for flashing it with EDL, which is complicated)
 ```cmd
 diskpart
 ```
@@ -44,7 +45,7 @@ lis dis
 ```
 
 #### Selecting your phone
-> Replace $ with the actual number of your phone
+> Replace `$` with the actual number of your phone
 ```cmd
 sel dis $
 ```
@@ -56,7 +57,7 @@ lis par
 ```
 
 #### Selecting the Windows partition
-> Replace $ with the partition number of Windows (should be 32)
+> Replace `$` with the partition number of Windows (should be 32)
 ```cmd
 sel par $
 ```
@@ -67,7 +68,7 @@ assign letter x
 ```
 
 #### Selecting the ESP partition
-> Replace $ with the partition number of ESP (should be 31)
+> Replace `$` with the partition number of ESP (should be 31)
 ```cmd
 sel par $
 ```
@@ -94,7 +95,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ### Installing drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of `WINMH2LM` (which should be X), then press enter
+> If it asks you to enter a letter, enter the drive letter of `WINFLASH` (which should be X), then press enter
   
 #### Create the Windows bootloader files
 ```cmd
@@ -126,19 +127,3 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
 Simply reboot your device
 
 ## [Last step: let's setup dualboot](3-dualboot.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

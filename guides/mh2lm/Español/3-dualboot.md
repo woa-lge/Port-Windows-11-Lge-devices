@@ -5,7 +5,7 @@
 ## Dualbooting Android y Windows sin Problemas
 
 ### Requisitos Previos
-- [Imagen UEFI](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/UEFI)
+- [Imagen UEFI](https://github.com/woa-lge/msmnilePkg/releases/latest)
   
 - [Aplicación WOA Helper](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Dualboot/woahelper.apk)
   

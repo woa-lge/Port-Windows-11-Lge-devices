@@ -1,7 +1,7 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows en el Lg G8x">
+<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows en el LG V50S">
 
 
-# Windows en el Lg G8x
+# Windows en el LG V50S
 
 ## Estado Del Proyecto
 

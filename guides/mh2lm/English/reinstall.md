@@ -7,7 +7,7 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
+- [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
 - [Mass storage image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.img)
 
@@ -84,16 +84,13 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> Enter the drive letter of **WINMH2LM**, which should be X, then press enter
+> If it asks you to enter a letter, enter the drive letter of `WINMH2LM` (which should be X), then press enter
 
 ### Boot into Windows
 Reboot your phone. If you end up in Android instead of Windows, flash the UEFI again using WOA Helper.
 
 #### Setting up Windows
 > Your device will now set up Windows. This will take some time. It will eventually reboot, and after that the initial setup (oobe) should launch.
-
-> [!Note]
-> To skip the Microsoft Account login, use "g" for the email and password. Windows will then let you make a local account
 
 ## Finished!
 

@@ -1,13 +1,13 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On To LG G8x">
+<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On To LG V50S">
 
-# Running Windows on the LG G8x
+# Running Windows on the LG V50S
 
 ## Installing Windows
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
+- [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
 - [Mass storage image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.img)
 
@@ -61,11 +61,6 @@ lis par
 sel par $
 ```
 
-#### Formatting Windows drive
-```cmd
-format quick fs=ntfs label="WINMH2LM"
-```
-
 #### Add letter to Windows
 ```cmd
 assign letter x
@@ -75,11 +70,6 @@ assign letter x
 > Replace $ with the partition number of ESP (should be 31)
 ```cmd
 sel par $
-```
-
-#### Formatting ESP drive
-```cmd
-format quick fs=fat32 label="ESPMH2LM"
 ```
 
 #### Add letter to ESP
@@ -104,7 +94,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ### Installing drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of `WINMH2LM` (which should be X), then press enter
+> If it asks you to enter a letter, enter the drive letter of `WINMH2LM5G` (which should be X), then press enter
   
 #### Create the Windows bootloader files
 ```cmd
@@ -114,16 +104,6 @@ bcdboot X:\Windows /s Y: /f UEFI
 #### Enabling test signing
 ```cmd
 bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
-```
-
-#### Disabling recovery
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
-```
-
-#### Disabling integrity checks
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
 ### Reboot to EDL
@@ -145,7 +125,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 #### Reboot back to Android
 Simply reboot your device
 
-## [Last step: let's setup dualboot](dualboot.md)
+## [Last step: let's setup dualboot](3-dualboot.md)
 
 
 

@@ -9,7 +9,7 @@ Estable. La mayoría de los componentes funcionan, pero todavía queda mucho tra
 
 #### Características
 
-- [x] Audio
+- [x] Audio ```3.5mm no funciona```
 - [x] Porcentaje De La Batería
 - [x] Bluetooth
 - [x] Brillo
@@ -34,7 +34,7 @@ Estable. La mayoría de los componentes funcionan, pero todavía queda mucho tra
 - [ ] Sensor De Huellas
 - [x] GPS
 - [x] Giroscopio
-- [x] Sensor De Luz
+- [ ] Sensor De Luz
 - [x] Magnetómetro
 - [ ] Proximidad
 

@@ -1,11 +1,11 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+<img align="right" src="/devices/flashlmdd.png" width="350" alt="Windows 11 Running On A LG V50">
 
-# Running Windows on the LG G8x
+# Running Windows on the LG V50
 
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/UEFI)
+- [UEFI image](https://github.com/woa-lge/msmnilePkg/releases/latest)
   
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 

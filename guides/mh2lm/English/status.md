@@ -1,4 +1,4 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On A LG G8x">
 
 # Running Windows on the LG G8x
 
@@ -8,12 +8,12 @@ Stable. Most of the components work, but there is still a lot of work for the la
 
 #### Features
 
-- [x] Audio
+- [x] Audio ```3.5mm not working```
 - [x] Battery percentage
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging ```Broken```
+- [x] Charging ```Slow charging only```
 - [x] Wireless Charging 
 - [x] Screen
 - [ ] Dual Screen For Lg
@@ -33,7 +33,7 @@ Stable. Most of the components work, but there is still a lot of work for the la
 - [ ] Fingerprint
 - [x] GPS
 - [x] Gyroscope
-- [x] Light sensor
+- [ ] Light sensor
 - [x] Magnetometer
 - [ ] Proximity
 

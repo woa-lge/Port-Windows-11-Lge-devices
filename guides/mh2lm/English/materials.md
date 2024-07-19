@@ -1,4 +1,4 @@
-<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+<img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On A LG G8x">
 
 # Running Windows on the LG G8x
 
@@ -15,18 +15,6 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 > Disable USB host mode if you use a poweref USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
 Run [USB Host Control](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/USBHost) to enable/disable USB host mode, confirm that you want to disable/enable USB host mode and then confirm the reboot
-
-##### Finished!
-
-## Hide D drive (modem partition)
-> [!NOTE]
-> This is recommended because this drive should not be modified, while some applications may try to write to it
-
-- Open a command prompt window and run ```diskpart```
-- Run ```list volume``` to see all available volumes
-- Select the disk that has letter D with ```select volume $```, replacing "$" with the volume number
-- Remove the letter with ```remove letter d```
-- Exit diskpart with ```exit```
 
 ##### Finished!
 

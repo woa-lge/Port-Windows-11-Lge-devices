@@ -7,7 +7,7 @@
 ### Requisitos previos
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Controladores](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
+- [Controladores](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
 - [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
 

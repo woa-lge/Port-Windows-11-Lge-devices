@@ -1,7 +1,7 @@
  <img align="right" src="/devices/flashlmdd.png" width="350" alt="Windows 11 Running On A V50">
 
 
-# Windows on the Lg V50
+# Windows on the LG V50
 
 This steps are necesary to make the partitions where we are going to install Windows.
 
@@ -35,79 +35,84 @@ This steps are necesary to make the partitions where we are going to install Win
 #### Unmount all partitions
 Go to mount on TWRP and unmount all partitions
 
-## Preparing for partitioning
+### Preparing for partitioning
+> Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb push parted /sbin/ && adb shell "chmod 755 /sbin/parted" && adb shell /sbin/parted /dev/block/sda
+adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
 ```
 
-### Delete the `grow` partition
->To make sure that partition 31 is grow you can use
->  `print all`
-```sh
-rm 31
+#### Printing the current partition table
+> Parted will print the list of partitions, **userdata** should be the last partition in the list.
+```cmd
+print
 ```
 
-### Delete the `userdata` partition 
->To make sure that partition 30 is userdata you can use
->  `print all`
-```sh
-rm 30
+#### Removing userdata
+> Replace **$** with the number of the **userdata** partition, which should be **30**
+> 
+> If you have a **grow** partition, remove it as well
+```cmd
+rm $
 ```
 
-### Create partitions
-> If you get any warning message telling you to ignore or cancel, just type i and enter
-
-#### For all models:
-
-- Create the ESP partition (stores Windows bootloader data and EFI files)
-```sh
-mkpart esp fat32 18.4GB 19GB
+#### Recreating userdata
+> Replace **17.7GB** with the former start value of **userdata** which we just deleted
+>
+> Replace **60GB** with the end value you want **userdata** to have
+```cmd
+mkpart userdata ext4 17.7GB 60GB
 ```
 
-- Create the main partition where Windows will be installed to
-```sh
-mkpart win ntfs 19GB 75.5GB
+#### Creating ESP partition
+> Replace **60GB** with the end value of **userdata**
+>
+> Replace **60.3GB** with the value you used before, adding **0.3GB** to it
+```cmd
+mkpart esp fat32 60GB 60.3GB
 ```
 
-- Create the Android data partition
-```sh
-mkpart userdata ext4 75.5GB 126GB
+#### Creating Windows partition
+> Replace **60.3GB** with the end value of **esp**
+>
+> Replace **126GB** with the end value of your disk, use `p free` to find it
+```cmd
+mkpart win ntfs 60.3GB 126GB
 ```
 
-
-### Make ESP partiton bootable so the EFI image can detect it
-```sh
-set 30 esp on
+#### Making ESP usable
+> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 31
+```cmd
+set $ msftdata on
 ```
 
-### Exit parted
-```sh
+#### Exit parted
+```cmd
 quit
 ```
+#### Reboot to TWRP
 
-### Reboot to TWRP
-
-### Start ADB shell again
+#### Start ADB shell again
 ```cmd
 adb shell
 ```
 
-### Format partitions
+#### Format partitions
 - Format the ESP partiton as FAT32
 ```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp
+mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPFLASH
 ```
 
 - Format the Windows partition as NTFS
 ```sh
-mkfs.ntfs -f /dev/block/by-name/win
+mkfs.ntfs -f /dev/block/by-name/win -n WINFLASH
 ```
 
-- Format Android data
-Go to Wipe menu and press Format Data, then type `yes`.
+#### Format all data
+Go to the Wipe menu in your recovery and wipe all data. If this doesn't work, simply reboot your phone.
 
-### Check if Android still starts
+#### Check if Android still starts
+> Once it is booted, it should tell you decryption was unsuccesful and it will ask you to erase all data.
+- Press this button to erase all data, let the phone boot back up, then reboot back to fastboot mode.
 Just reboot the phone and see if Android still boots.
 
-
-## [Next step: Installing Windows](2-Instalation.md)
+## [Next step: Installing Windows](2-install.md)

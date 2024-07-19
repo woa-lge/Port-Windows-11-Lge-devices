@@ -105,4 +105,4 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set {default} testsigning on
 
 
 
-# [Ya casi hemos terminado, vamos a poner el dual boot](3-Dual-Boot.md)
+# [Ya casi hemos terminado, vamos a poner el dual boot](3-dualboot.md)

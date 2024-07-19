@@ -44,15 +44,15 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation instructions](../guide/English/1-Partitions.md)
+- [Installation instructions](../guide/English/1-partition.md)
 
-- [Uninstall instructions](../guide/English/Uninstall.md)
+- [Uninstall instructions](../guide/English/uninstall.md)
 
 
 ## Miscellaneous
 
-- [Project Status](../guide/English/Status.md)
+- [Project Status](../guide/English/status.md)
 
-- [Driver updating instructions](../guide/English/Update.md)
+- [Driver updating instructions](../guide/English/update.md)
 
-- [Extra](../guide/English/Extra.md)
+- [Extra](../guide/English/extra.md)

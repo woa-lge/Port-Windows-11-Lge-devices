@@ -14,7 +14,7 @@ Alpha. This project is just starting, please be patient for future updates.
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
-- [x] Charging 
+- [x] Charging ```Slow charging only``` 
 - [x] Wireless Charging 
 - [x] Screen
 - [ ] Dual Screen For Lg

@@ -27,7 +27,7 @@
 
 
 ## Miscellaneous
-- [Dualboot setup](English/dualboot.md)
+- [Dualboot setup](English/3-dualboot.md)
 
 - [Additional materials](English/materials.md)
 

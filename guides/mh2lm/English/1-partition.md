@@ -1,4 +1,4 @@
- <img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On A Lg G8x">
+ <img align="right" src="/devices/mh2lm.png" width="350" alt="Windows 11 Running On A LG G8x">
 
 # Running Windows on the LG G8x
 
@@ -89,11 +89,11 @@ rm $
 ```
 
 #### Recreating userdata
-> Replace **19GB** with the former start value of **userdata** which we just deleted
+> Replace **17.7GB** with the former start value of **userdata** which we just deleted
 >
 > Replace **60GB** with the end value you want **userdata** to have
 ```cmd
-mkpart userdata ext4 19GB 60GB
+mkpart userdata ext4 17.7GB 60GB
 ```
 
 #### Creating ESP partition
@@ -123,22 +123,22 @@ set $ esp on
 quit
 ```
 
-### Reboot to TWRP
+#### Reboot to TWRP
 
-### Start ADB shell again
+#### Start ADB shell again
 ```cmd
 adb shell
 ```
 
-### Format partitions
+#### Format partitions
 - Format the ESP partiton as FAT32
 ```sh
-mkfs.fat -F32 -s1 /dev/block/by-name/esp
+mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPMH2LM
 ```
 
 - Format the Windows partition as NTFS
 ```sh
-mkfs.ntfs -f /dev/block/by-name/win
+mkfs.ntfs -f /dev/block/by-name/win -n WINMH2LM
 ```
 
 #### Format all data

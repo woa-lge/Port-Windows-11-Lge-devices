@@ -1,47 +1,20 @@
-#### with Qfil put Mass Storage Mode image in boot_a and boot_b
+<img align="right" src="/devices/flashlmdd.png" width="350" alt="Windows 11 Running On To LG V50">
 
-> When the Lg G8X is detected as disk
+# Running Windows on the LG V50
 
-```cmd
-diskpart
-```
+## Updating drivers
 
+### Prerequisites
+- [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
-### Assign `x` to the Windows volume
+### Boot into Windows
+> Flash the UEFI image in fastboot or use the WOA Helper app
 
-#### Select the phone's Windows volume
-> use `list volume` to find it, it's usually the one before the last
+### Installing Drivers
+> Unpack the driver archive on your LG while in Windows, then open the `OnlineUpdater.cmd` file
 
-```diskpart
-select volume <number>
-```
+> Follow any instructions provided on the screen
 
-#### Assign the letter x
-```diskpart
-assign letter=x
-```
+> If you see an error after installing **App Packages**, ignore it, and reboot your device manually after it says **Done!**
 
-### Exit diskpart:
-```diskpart
-exit
-```
-
-
-# Install the Drivers
-
-> replace `<mh2lmdriversfolder>` with the location of the drivers folder
-
-> open a cmd as administrator
-
-
-```cmd
-.\driveupdater.exe -d <mh2lmdriversfolder>\definitions\Desktop\ARM64\Internal\mh2lm.txt -r <mh2lmdriversfolder> -p X:
-```
-
-
-### Boot with the Windows boot image #####
-
-  
-  
-
-# Finished!
+## Finished!
