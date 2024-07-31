@@ -7,7 +7,9 @@
 ### Prerequisites
 - [UEFI image](https://github.com/woa-lge/msmnilePkg/releases/latest)
   
-- [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [WOA Helper app](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/dualboot/WOA-Helper.apk)
+
+- [Instalador StA](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/dualboot/StA_Installer_mh2lm.exe)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, please do that first

@@ -9,7 +9,7 @@
   
 - [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
-- [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
+- [Mass storage boot image](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/msc/Mh2lm-MassStorage.img)
 
 ### Reiniciar al modo de descarga
 - Mantén presionado **bajar volumen** + **encendido**.

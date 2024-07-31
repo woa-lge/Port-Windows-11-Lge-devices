@@ -7,11 +7,11 @@
 ### Requisitos previos
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil) (para hacer copias de seguridad de las particiones)
-  
-- [Script de Parted](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
-  
-- [TWRP o Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
+- [Qfil](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/tag/qfil)
+
+- [ABL De Ingenieria](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/abl/engabl_sm8150_lge.bin)
+
+- [TWRP Modificado](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/recoveries/Modded-twrp-g8x.img)
 
 ### Notas
 > [!Warning]  
@@ -75,19 +75,19 @@ Ve a montar en TWRP/Orange Fox y desmonta todas las particiones
 #### Preparando para particionar
 > Descarga el archivo parted y muévelo a la carpeta platform-tools, luego ejecuta
 ```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
+adb shell parted /dev/block/sda
 ```
 
 ### Borrar la partición `grow` 
 > Para asegurarte de que la partición 31 es grow puedes usar
->  `print all`
+>  `print`
 ```sh
 rm 31
 ```
 
 ### Redimensionar la partición `userdata` 
 > Para asegurarte de que la partición 30 es Userdata puedes usar
->  `print all`
+>  `print`
 ```sh
 resizepart 30
 ```

@@ -7,13 +7,11 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
+- [Qfil](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/tag/qfil)
   
-- [Parted script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
-
-- [Engineering ABL](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/engabl_ab.bin)
+- [Engineering ABL](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/abl/engabl_sm8150_lge.bin)
   
-- [TWRP or Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
+- [Modded TWRP](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/recoveries/Modded-twrp-g8x.img)
 
 ### Notes
 > [!WARNING]  
@@ -71,7 +69,7 @@ Go to mount in TWRP/Orange Fox and unmount all partitions
 ### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb push parted /sbin/ && adb shell "chmod 755 /sbin/parted" && adb shell /sbin/parted /dev/block/sda
+adb shell parted /dev/block/sda
 ```
 
 #### Printing the current partition table
