@@ -3,12 +3,13 @@
 
 
 ## ⚠️ Warning
+**These are the only official guides for LG devices, we are not responsible for any damage to use another guide**
+
 We are not responsible for bricked devices, deleted recovery partitions, dead xiaomi workers (LG ones are ok, don't worry) dead microSD cards, dead pmics, dead ram, dead ics, dead cpus, any xiaomi/poco mischief, (LG never does anything) dead cats or dogs, nuclear wars or getting fired because you forgot to reboot android for the alarm.
 
 This project is in an early stage, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
 **IF YOU AREN'T COMFORTABLE MODDING YOUR PHONE OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
-
 
 ## Select Your Device
 

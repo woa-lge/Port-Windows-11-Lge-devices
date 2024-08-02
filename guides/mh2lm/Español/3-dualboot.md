@@ -9,7 +9,8 @@
   
 - [Aplicación WOA Helper](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/dualboot/WOA-Helper.apk)
   
-- [Instalador StA](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/dualboot/StA_Installer_mh2lm.exe) 
+- [Instalador StA](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/dualboot/StA_Installer_mh2lm.exe)
+
 ## Configurando la Aplicación de Dualboot
 > Esta guía asume que tienes acceso root. Si no es así, por favor hazlo primero.
 

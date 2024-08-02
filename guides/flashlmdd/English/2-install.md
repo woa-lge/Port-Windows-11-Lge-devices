@@ -10,7 +10,7 @@
   
 - [Drivers](https://github.com/woa-lge/LGE-Drivers/releases/latest)
 
-- [Mass storage image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.img)
+- [Mass storage image](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/msc/boot-msc.img)
 
 
 ### Reboot to fastboot mode

@@ -5,7 +5,7 @@
 
 ## Project status
 
-Alpha. This project is just starting, please be patient for future updates.
+Beta. Most of the components work, but there is still a lot of work.
 
 #### Features
 

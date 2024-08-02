@@ -8,13 +8,13 @@ This steps are necesary to make the partitions where we are going to install Win
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
+- [Qfil](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/tag/qfil)
   
-- [Parted script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
+- [Parted script](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/parted/parted)
 
-- [Engineering ABL](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/engabl_ab.bin)
+- [Engineering ABL](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/abl/engabl_sm8150_lge.bin)
   
-- [TWRP](https://xdaforums.com/attachments/twrp-installer-v3-3-1-v50_ab-zip.5070997/)
+- [TWRP](https://github.com/woa-lge/Port-Windows-11-Lge-devices/releases/download/recoveries/twrp-installer-V50.zip)
 
 ### Notes
 > [!WARNING]  
@@ -82,7 +82,7 @@ mkpart win ntfs 60.3GB 126GB
 #### Making ESP usable
 > Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 31
 ```cmd
-set $ msftdata on
+set $ esp on
 ```
 
 #### Exit parted
